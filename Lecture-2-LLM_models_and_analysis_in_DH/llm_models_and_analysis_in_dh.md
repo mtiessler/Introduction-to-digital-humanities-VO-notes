@@ -96,6 +96,7 @@ Explanations are evaluated on several dimensions:
   * **Stability:** Is the explanation consistent and deterministic?
   * **Usefulness:** Does the explanation help a human user understand and predict the model's behavior? This is often measured through user studies.
 
+Performance model and task dependent!!
 
 ### 4\. LLMs in Digital Humanities
 
