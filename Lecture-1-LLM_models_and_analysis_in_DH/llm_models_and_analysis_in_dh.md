@@ -17,7 +17,7 @@ Notes from the presentation "Large language model analysis and applications in D
   * **Instruction Tuning:** Modern models like ChatGPT undergo further training to follow instructions. This involves:
     1.  Initial next-word prediction training.
     2.  Learning from a large set of example instructions and their answers.
-    3.  Learning from human feedback to ensure answers are helpful, harmless, and honest, a process known as Reinforcement Learning from Human Feedback (RLHF).
+    3.  Learning from human feedback to ensure answers are helpful, harmless, and honest, a process known as **Reinforcement Learning from Human** Feedback (RLHF).
 
 ![RLHF](imgs/2_RLHF.png)
 
