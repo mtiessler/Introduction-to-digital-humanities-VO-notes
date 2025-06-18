@@ -4,7 +4,7 @@
 
 #### **1. Introduction to Cuneiform and Akkadian**
 
-* **Cuneiform Script**: An ancient writing system using wedge-shaped impressions made by a stylus on soft clay tablets. It was invented by the Sumerians and later adapted for the Akkadian language.
+* **Cuneiform Script**: An ancient writing system using (cuneus = wedge) wedge-shaped impressions made by a stylus on soft clay tablets. It was invented by the Sumerians and later adapted for the Akkadian language.
 * **Akkadian Language**: An ancient Semitic language (related to Hebrew and Arabic) spoken in Mesopotamia (Assyria and Babylonia). The term covers various regional and chronological dialects.
 * **Standard Babylonian**: A refined, literary form of the language used from the 15th to the 4th century BCE. Mastery required a high level of scribal education.
 
