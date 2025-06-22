@@ -64,6 +64,7 @@ This approach builds shared, centralized platforms to produce and maintain multi
           * **Good**: Built on stable servers with a dedicated team and designed for long-term maintenance of many editions "per group".
           * **Bad**: The process is slow, and balancing generic needs with specific project needs requires negotiation and adaptation.
 
+![alt text](image.png)
 -----
 
 ### **The "Standoff" Approach Explained**
@@ -87,3 +88,5 @@ Here is a simplified example based on the presentation:
 ```
 
 This `<note>` is explicitly linked to the text segment starting at word `c1_10001` and ending at word `c1_10017` in the chapter 1 file. Because the note is in a separate file, it doesn't interfere with any other notes that might refer to the same or an overlapping passage. This makes the system clean, manageable, and scalable.
+
+![alt text](image-1.png)
