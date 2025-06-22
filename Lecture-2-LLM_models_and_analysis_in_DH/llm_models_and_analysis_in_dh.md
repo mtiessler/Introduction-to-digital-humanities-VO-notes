@@ -9,6 +9,8 @@ Notes from the presentation "Large language model analysis and applications in D
   * It works by predicting one word at a time, with each new word being added to the context for the next prediction.
   * The process can be initiated with a special `<START>` symbol to generate text from scratch.
   * LLMs are essentially classifiers that calculate the probability of the next word given the preceding words (e.g., $P(w\_{n+1}|w\_{0}...w\_{n})$).
+  
+![what is llm](i1.png)
 
 #### **How LLMs Learn**
 
@@ -23,11 +25,12 @@ Notes from the presentation "Large language model analysis and applications in D
 
 #### **Types of Language Models**
 
-  * **Auto-regressive Language Models (ARLM):**
+  * **Auto-regressive Language Models (ARLM) or Causal Language Models:**
       * These models predict text from left-to-right.
       * They are primarily used for *generating* text.
       * Examples include GPT, GPT-2, and ChatGPT.
-  * **Masked Language Models (MLM):**
+      * Better than MLM for **generating text**
+  * **Masked Language Models (MLM) or Autoencoding models:**
       * These models predict a "masked" or hidden word based on its surrounding context (words before and after it).
       * They are primarily used for *analyzing and categorizing* existing text by learning contextualized vector representations.
       * Examples include BERT, RoBERTa, and ALBERT.
@@ -71,6 +74,8 @@ Evaluating LLMs is crucial to understand their capabilities and limitations. Eva
   * **Multi-modal Evaluation:**
       * Uses datasets that combine different data types, like text and images, to evaluate models that can process them. The Minecraft Dialogue Corpus is an example where a model must understand a conversation in the context of a visual game state.
 
+While leaderboards and benchmarks offer a way to rank language models based on general capabilities, licensing, and size, they are insufficient for evaluating performance on your specific task. This is especially true in complex systems like retrieval-augmented generation, where the quality of the documents and the retrieval process heavily influence the final outcome.
+
 ### 3\. Explainability for LLMs
 
 Explainability seeks to understand *why* a model makes a certain decision.
@@ -78,9 +83,9 @@ Explainability seeks to understand *why* a model makes a certain decision.
   * **Interpretability vs. Explainability:**
       * **Interpretability** is a property of the model itself; the model is transparent and can be understood by humans (e.g., a simple decision tree). LLMs are generally not interpretable.
       * **Explainability** involves calculating and presenting the most important factors that led to a model's decision.
-  * **Faithfulness vs. Rationalization:**
-      * An explanation is **faithful** if it accurately reflects the model's underlying causal process.
-      * A **rationalization** is an explanation that seems plausible but is not faithful to the model's actual reasoning. Self-explanations from LLMs are often rationalizations and should not be trusted to understand the model's internal logic.
+        * **Faithfulness vs. Rationalization:**
+            * An explanation is **faithful** if it accurately reflects the model's underlying causal process.
+            * A **rationalization** is an explanation that seems plausible but is not faithful to the model's actual reasoning. Self-explanations from LLMs are often rationalizations and should not be trusted to understand the model's internal logic.
 
 #### **Types of Explanations**
 
@@ -92,9 +97,14 @@ Explainability seeks to understand *why* a model makes a certain decision.
 
 Explanations are evaluated on several dimensions:
 
-  * **Faithfulness:** Does the explanation reflect the model's real reasoning? This can be tested by removing the "important" tokens and seeing if the model's output changes significantly.
-  * **Stability:** Is the explanation consistent and deterministic?
-  * **Usefulness:** Does the explanation help a human user understand and predict the model's behavior? This is often measured through user studies.
+* **Faithful:** The explanation truly reflects the model's reasoning.
+    * **Example:** If a loan application model denies a loan due to "low income," a faithful explanation confirms that income was indeed the primary factor the model used, not a simplified guess while the real reason was something else, like "short credit history."
+
+* **Stable:** The explanation doesn't change wildly with tiny, irrelevant changes to the input.
+    * **Example:** An explanation for why an image is classified as a "cat" should highlight the cat's features. If slightly brightening the image causes the explanation to shift from highlighting the "pointy ears" to the "background color," it is not stable.
+
+* **Useful:** The explanation helps you understand the model and take action.
+    * **Example:** An explanation like "output neuron #3 fired with an activation of 0.87" is not useful. A useful explanation would be, "The model identified this as a fraudulent transaction because the purchase amount is unusually high for this time of day."
 
 Performance model and task dependent!!
 
