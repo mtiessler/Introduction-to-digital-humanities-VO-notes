@@ -1,3 +1,7 @@
+Notes from the presentation "Digital Humanities Meets Assyriology: A Look at Three Groundbreaking Projects in Vienna
+" by Nicla De Zorzi from University of Vienna.
+
+
 **Introduction to Digital Musicology**
 
 Digital Musicology is a field within the Digital Humanities that deals with the static representation of music. Music in its primary form is a time-ordered set of sounds for a listener or gestures for a performer. Representing this in a static, readable format is a complex process involving many assumptions and conventions. Digital Musicology includes sub-fields like Music Corpus Studies (e.g., creating work catalogues), Digital Music Philology (creating digital editions), Music Performance Analysis, and Computational Music Theory.
