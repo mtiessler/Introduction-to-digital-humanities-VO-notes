@@ -1,5 +1,7 @@
+Notes from the presentation "The Good Life Digital and the Power to Shape It" by rich Prem from TU Wien.
 
-### ** "The Good Life Digital and the Power to Shape It"**
+
+### **"The Good Life Digital and the Power to Shape It"**
 
 ---
 
@@ -13,8 +15,16 @@
 * **Humanism & Enlightenment**:
     * The foundation of humanism is Protagoras's idea that "Man is the measure of all things," meaning the perceiving and thinking human is the standard for all things.
     * It is tied to the Enlightenment, which Immanuel Kant defined as "man's emergence from his self-incurred immaturity". This requires the courage to use one's own reason and take responsibility for one's actions.
-    * Key principles of the Enlightenment include reason, the scientific method, individual liberty, progress, tolerance, and constitution.
+    * **Key Principles of Enlightenment**:
+        * Reason for knowledge
+        * Scientific method
+        * Individual liberty
+        * Progress
+        * Tolerance
+        * Constitution
 * **Critique of Humanism**: The lecture also acknowledges critiques of traditional humanism, such as its human self-centeredness, idealization of antiquity, and colonialist tendencies.
+
+![alt text](image-2.png)
 
 #### **2. The Rise of Digital Humanism**
 
@@ -27,6 +37,19 @@
     * Alienation of labor and de-qualification.
     * A shift from ownership to renting.
 * **Definition**: Digital Humanism is the effort to strive for human dignity and coexistence in the digital age, shaping technology to support human rights, the common good, and sustainability. It is an engineering and design endeavor to create feasible and worthy visions of a digital future.
+* **Aims of Digital Humanism**:
+    * Using digital technology for democracy and freedom.
+    * Designing the digital sphere in accordance with humanistic ideals and sustainable development.
+    * Establishing societal limits, education, and enlightenment.
+    * Taking a holistic perspective on all related issues.
+  
+![dh](image.png)
+
+![dh2](image-1.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
 
 #### **3. The Vienna Manifesto & Core Principles**
 
