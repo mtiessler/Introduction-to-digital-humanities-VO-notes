@@ -1,3 +1,9 @@
+Notes from the presentation "A digital edition of
+modern research on
+ancient texts: Wilhelm
+Siegling’s nachlass" by Bernhard Koller from University of Vienna.
+
+
 ### **A Digital Edition of Wilhelm Siegling's Nachlass**
 
 ---
@@ -14,9 +20,47 @@
     * A co-founder of Tocharian studies, alongside his collaborator Emil Sieg.
     * He published the first grammatical overview (1908), a major edition of Tocharian A texts (1921), a grammar of Tocharian A (1931), and posthumous editions of Tocharian B texts.
 
+![alt text](image.png)
+
 ---
 
 #### **2. Wilhelm Siegling's Nachlass**
+
+---
+
+##### Wilhelm Siegling (1880–1946)
+
+* **Born**: 1880 in Erfurt
+* **Died**: 1946 in Berlin
+* **Field**: Co-founder of **Tocharian studies** (with Emil Sieg)
+
+##### Education and Early Career
+
+* **1901–1906**: Studied **Avestan**, **Sanskrit**, and **Tibetan** in Berlin
+* **1906**: Began collaborating with **Emil Sieg** to decipher Tocharian manuscripts at the *Museum für Völkerkunde*, Berlin
+
+##### Major Contributions
+
+* **1908**: Published the **first grammatical overview** of Tocharian
+
+  * Introduced the distinction between **Tocharian A** and **Tocharian B**
+  * *(Sieg and Siegling 1908)*
+
+* **1915–1918**: Served in **World War I**
+
+* **1921**: Published an edition of **466 Tocharian A fragments** from the Berlin Turfan collection
+
+  * *(Sieg and Siegling 1921)*
+
+* **1931**: Published a **grammar of Tocharian A**
+
+  * *(Sieg, Siegling, and Schulze 1931)*
+
+* **1949, 1953**: Posthumous publications of **633 Tocharian B fragments** from the Berlin Turfan collection
+
+  * *(Sieg and Siegling 1949, 1953)*
+
+---
 
 * **What it is**: Siegling's academic estate (*Nachlass*), stored at the Georg-August-Universität Göttingen, consists of his research materials. This project was provided with high-resolution scans of the documents.
 * **Contents**: The collection includes:
@@ -35,7 +79,25 @@
 
 #### **3. The Digital Edition Project: Goals & Workflow**
 
-The project aims to create a digital, queryable edition of Siegling's *Nachlass* and integrate it into a larger research ecosystem.
+**Aim**:
+To create a **digital, queryable edition** of Wilhelm Siegling’s *Nachlass* and integrate it into a broader research ecosystem.
+
+##### **Main Goals**
+
+* Transcribe **all written documents** within Siegling’s *Nachlass*
+* Create a **TEI-encoded** version of the transcriptions enriched with:
+
+  * References to **scholars**, **literature**, and **linguistic forms**
+  * **English summaries** of each document
+* **Publish** the data on **CEToM** (Central Asian Texts on the Move) in a **searchable/queryable** format
+
+##### **Status**
+
+* All **photographs** of the documents are publicly available
+* Only a **subset has been transcribed** so far
+
+---
+
 
 ##### **Step 1: Transcription in Transkribus**
 
@@ -51,6 +113,9 @@ The project aims to create a digital, queryable edition of Siegling's *Nachlass*
     * A custom "TEI Chain" of further XSLT transformations cleans the data, restructures it, expands abbreviations, and adds necessary metadata to create valid, project-specific TEI files.
 * **Challenge**: Some letters were folded and used like booklets, meaning the reading order jumps between pages. This is solved either by manually rearranging text after conversion or by using custom tags in Transkribus to automate the reordering during conversion.
 
+![alt text](image-4.png)
+
+
 ##### **Step 3: Integration with the CETOM Ecosystem**
 
 * The project integrates the *Nachlass* data into a pre-existing digital environment for Tocharian studies.
@@ -61,9 +126,13 @@ The project aims to create a digital, queryable edition of Siegling's *Nachlass*
     * A bibliography with 1,667 entries
 * **Enrichment**: The TEI files of the *Nachlass* are enriched by linking them to the Tarim-Brahmi database. For example, when a Tocharian word is mentioned in a letter, a reference is added in the XML that links it directly to its entry in the digital dictionary.
 
+![alt text](image-3.png)
+
 ---
 
 #### **4. Publication and Final Output**
+
+![alt text](image-5.png)
 
 * **Website**: The final digital edition is published on the CETOM website.
 * **Features**:
